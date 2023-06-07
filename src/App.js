@@ -62,3 +62,4 @@ export default App;
 // e.preventDefault() - This prevents resetting the form. Must always have this with forms in react. (Look to SeachBar.js)
 // if(search) fetchData() - We only want to fetch Data when we make a search in our music library.
 // encodeURI - This will allow us to put spaces in our search. Aka I can search "Black Sabbath" and the space between wont mess up the search. Without the encodeURI it would just search "Black".
+// We've also installed "npm install react-router-dom" package so that we can place Routes to our different webpages. Remember, this is a 1 page application but will be acting like multiple pages thansk to React.

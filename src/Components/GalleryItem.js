@@ -62,5 +62,5 @@ function GalleryItem(props) {
 export default GalleryItem;
 
 // In our onClick we are passing Arguments to Event Handler
-// ln 47 if view is True you get the detailView. if view is False then you get the simpleView.
-// Since our useState(fale) our default view will be the simpleView.
+// ln 57 if view is True you get the detailView. if view is False then you get the simpleView.
+// Since our useState(false) our default view will be the simpleView.
